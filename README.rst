@@ -7,6 +7,7 @@ Requirements
 ------------
 
 - Python 2.7.8
+- PostgreSQL 9.3.5
 - pip 1.5.6
 
 Setup
