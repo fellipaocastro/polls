@@ -9,8 +9,8 @@ Requirements
 - Python 2.7.8
 - pip 1.5.6
 
-Local setup
------------
+Setup
+-----
 
 .. code-block:: bash
 
