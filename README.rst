@@ -15,7 +15,7 @@ Setup
 
 .. code-block:: bash
 
-    $ pip install -r requirements/{local, production}.txt
+    $ pip install -r requirements/local.txt
     $ ./mysite/manage.py migrate
     $ ./mysite/manage.py createsuperuser
 
@@ -24,14 +24,14 @@ Usage
 
 .. code-block:: bash
 
-    $ ./mysite/manage.py runserver
+    $ ./mysite/manage.py runserver --settings=mysite.settings.local
 
 Test
 ----
 
 .. code-block:: bash
 
-    $ ./mysite/manage.py test
+    $ ./mysite/manage.py test --settings=mysite.settings.test
 
 Source code check
 -----------------
