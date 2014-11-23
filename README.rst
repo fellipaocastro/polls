@@ -16,8 +16,8 @@ Setup
 .. code-block:: bash
 
     $ pip install -r requirements/local.txt
-    $ ./mysite/manage.py migrate
-    $ ./mysite/manage.py createsuperuser
+    $ ./mysite/manage.py migrate --settings=mysite.settings.local
+    $ ./mysite/manage.py createsuperuser --settings=mysite.settings.local
 
 Usage
 -----
