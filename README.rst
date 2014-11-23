@@ -16,22 +16,22 @@ Setup
 .. code-block:: bash
 
     $ pip install -r requirements/local.txt
-    $ ./mysite/manage.py migrate --settings=mysite.settings.local
-    $ ./mysite/manage.py createsuperuser --settings=mysite.settings.local
+    $ ./manage.py migrate --settings=mysite.settings.local
+    $ ./manage.py createsuperuser --settings=mysite.settings.local
 
 Usage
 -----
 
 .. code-block:: bash
 
-    $ ./mysite/manage.py runserver --settings=mysite.settings.local
+    $ ./manage.py runserver --settings=mysite.settings.local
 
 Test
 ----
 
 .. code-block:: bash
 
-    $ ./mysite/manage.py test --settings=mysite.settings.test
+    $ ./manage.py test --settings=mysite.settings.test
 
 Source code check
 -----------------
