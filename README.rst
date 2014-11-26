@@ -38,4 +38,4 @@ Source code check
 
 .. code-block:: bash
 
-    $ flake8 --exclude=./mysite/polls/migrations/* .
+    $ flake8 .
