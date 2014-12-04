@@ -8,9 +8,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import os
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+# Build paths inside the project like this: Path(BASE_DIR, ...)
+from unipath import Path
+BASE_DIR = Path(__file__).parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -68,4 +68,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
+TEMPLATE_DIRS = [Path(BASE_DIR, 'templates')]
