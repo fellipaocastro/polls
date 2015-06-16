@@ -54,4 +54,4 @@ docs/_build/
 target/
 
 mysite/db.sqlite3
-*.DS_Store
+.DS_Store
